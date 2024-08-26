@@ -1,5 +1,13 @@
 # RxStrategist Website
 
+## Homepage
+
+![image](https://github.com/user-attachments/assets/eab3129b-1855-4c15-98b4-78b28ec921fe)
+
+## Landing page
+
+![image](https://github.com/user-attachments/assets/57d52ff1-f15e-49cc-b880-e159c8038a94)
+
 ## Project setup
 
 ```
