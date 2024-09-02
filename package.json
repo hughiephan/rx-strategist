@@ -1,6 +1,6 @@
 {
-  "homepage": ".",
-  "name": "deski",
+  "homepage": "https://rxstrategist.aicomponent.co",
+  "name": "rxstrategist",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
@@ -42,7 +42,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && copy CNAME build &&  gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
