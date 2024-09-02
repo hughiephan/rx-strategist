@@ -9,6 +9,7 @@ import Footer from "../../components/footer/Footer";
 import CopyRight from "../../components/footer/CopyRight";
 import MainBlockMetaData from "../../components/fancy-text-block/MainBlockMetaData";
 import HeaderMain from "../../components/header/HeaderMain";
+import HeaderLandingMobileApp from "../../components/header/landing/HeaderLandingMobileApp";
 
 const MainLanding = () => {
   const handleSubmit = (event) => {
@@ -24,7 +25,7 @@ const MainLanding = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <HeaderMain />
+      <HeaderLandingMobileApp />
       {/* End Header */}
 
       {/* 

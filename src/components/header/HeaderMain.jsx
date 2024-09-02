@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import MegaMenu from "./mega-menu/MegaMenu";
+import MegaMenuMain from "./mega-menu/MegaMenuMain";
 import MegaMenuMobile from "./mega-menu/MegaMenuMobile";
 
 const HeaderMain = () => {
@@ -40,7 +40,7 @@ const HeaderMain = () => {
                 id="navbarSupportedContent"
               >
                 <div className="d-lg-flex align-items-center">
-                  {/* <MegaMenu /> */}
+                  <MegaMenuMain />
                   {/* End MegaMenu */}
 
                   <ul className="right-button-group d-flex align-items-center justify-content-center">

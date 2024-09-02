@@ -3,7 +3,7 @@ import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
 import MegaMenuLanding from "../../header/mega-menu/MegaMenuLanding";
 
-const HeaderLandingMobileApp = () => {
+const HeaderLandingMobileAppMain = () => {
   // For header select menu
   const [click1, setClick1] = useState(false);
   const handleClick1 = () => setClick1(!click1);
@@ -37,9 +37,9 @@ const HeaderLandingMobileApp = () => {
       >
         <div className="d-flex align-items-center justify-content-center">
           <div className="logo">
-            {/* <Link to="/doc-landing">
+            <Link to="/doc-landing">
               <img src="images/logo/deski_06.svg" alt="brand" />
-            </Link> */}
+            </Link>
           </div>
           {/* End logo */}
 
@@ -64,6 +64,7 @@ const HeaderLandingMobileApp = () => {
                   <Scrollspy
                     className="navbar-nav  main-side-nav font-gordita"
                     items={[
+                      "home",
                       "product",
                       "features",
                       "pricing",
@@ -72,7 +73,7 @@ const HeaderLandingMobileApp = () => {
                     currentClassName="active"
                     offset={-90}
                   >
-                    {/* <li className="nav-item dropdown position-static">
+                    <li className="nav-item dropdown position-static">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#home"
@@ -83,28 +84,28 @@ const HeaderLandingMobileApp = () => {
                       <div className="dropdown-menu">
                         <MegaMenuLanding />
                       </div>
-                    </li> */}
+                    </li>
                     <li className="nav-item">
-                      <a href="https://github.com/pphuc25/Rx-Strategist" className="nav-link">
-                        Codebase
+                      <a href="#product" className="nav-link">
+                        Product
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="https://github.com/nikkapp/Prescription-Analyzer" className="nav-link">
-                        UI
+                      <a href="#features" className="nav-link">
+                        Features
                       </a>
                     </li>
 
                     <li className="nav-item">
-                      <a href="https://www.overleaf.com/project/6698d89b59433d373352bd29" className="nav-link">
-                        Paper
+                      <a href="#pricing" className="nav-link">
+                        Pricing
                       </a>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                       <a href="#feedback" className="nav-link">
                         Feedback
                       </a>
-                    </li> */}
+                    </li>
                   </Scrollspy>
                 </div>
               </div>
@@ -127,26 +128,26 @@ const HeaderLandingMobileApp = () => {
                     onClick={handleClick1}
                     type="button"
                   >
-                    Get started
+                    Download
                   </button>
                   <div
                     className={click1 ? "dropdown-menu  show" : "dropdown-menu"}
                   >
                     <a
                       className="dropdown-item d-flex align-items-center"
-                      href="#/signup"
+                      href="#"
                       onClick={handleClick1}
                     >
                       <img src="images/icon/103.svg" alt="icon" />
-                      <span>Signup</span>
+                      <span>IOS & Android</span>
                     </a>
                     <a
                       className="dropdown-item d-flex align-items-center"
-                      href="#/login"
+                      href="#"
                       onClick={handleClick1}
                     >
                       <img src="images/icon/104.svg" alt="icon" />
-                      <span>Signin</span>
+                      <span>Mac & Windows</span>
                     </a>
                   </div>
                 </div>
@@ -161,9 +162,9 @@ const HeaderLandingMobileApp = () => {
       {/* Mobile Menu Start */}
       <div className={click ? "mobile-menu  menu-open" : "mobile-menu"}>
         <div className="logo order-md-1">
-          {/* <Link to="/doc-landing">
+          <Link to="/doc-landing">
             <img src="images/logo/deski_06.svg" alt="brand" />
-          </Link> */}
+          </Link>
           <div className="fix-icon text-dark" onClick={handleClick}>
             <img src="images/icon/close.svg" alt="icon" />
           </div>
@@ -176,7 +177,7 @@ const HeaderLandingMobileApp = () => {
           currentClassName="active"
           offset={-90}
         >
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a href="#home" className="nav-link" onClick={handleClick}>
               Home
             </a>
@@ -201,7 +202,7 @@ const HeaderLandingMobileApp = () => {
             <a href="#feedback" className="nav-link" onClick={handleClick}>
               Feedback
             </a>
-          </li> */}
+          </li>
         </Scrollspy>
       </div>
       {/* Mobile Menu End */}
@@ -209,4 +210,4 @@ const HeaderLandingMobileApp = () => {
   );
 };
 
-export default HeaderLandingMobileApp;
+export default HeaderLandingMobileAppMain;
