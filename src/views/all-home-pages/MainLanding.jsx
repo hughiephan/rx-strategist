@@ -74,7 +74,7 @@ const MainLanding = () => {
                  Ensuring accurate patient's <span> prescription</span>
                 </h1>
                 <p className="hero-sub-heading">
-                  AI Tools for reviewing drug interactions, contraindications, dosage, and administration
+                  Reviewing drug interactions, contraindications, dosage, and administration
                 </p>
               </div>
               {/* End .col */}
@@ -107,8 +107,8 @@ const MainLanding = () => {
 		============================================== */}
       <div className="fancy-feature-one pb-150 md-pb-80">
         <div className="text-center">
-          <div style={{width: "70%"}} className="feature-img-area">
-            <img style={{borderRadius: "15px"}}src="images/assets/main-feature-img-01.png" alt="feature" />
+          <div style={{width: "80%"}} className="feature-img-area">
+            <img style={{border: "1px solid #dcdedc", borderRadius: "15px"}}src="images/assets/main-feature-img-03.png" alt="feature" />
             <img
               src="images/assets/screen_33.png"
               alt="feature"

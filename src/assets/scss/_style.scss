@@ -1127,7 +1127,7 @@ body .shop-btn-two:hover {
 }
 .hero-banner-one .hero-upper-container {
   position: relative;
-  padding: 60px 0 165px;
+  padding: 60px 0 105px;
   text-align: center;
   z-index: 5;
 }
@@ -1397,13 +1397,14 @@ body .shop-btn-two:hover {
   display: inline-block;
   position: relative;
   z-index: 5;
-  padding-right: 125px;
+  padding-left: 80px;
+  padding-right: 0px;
 }
 .fancy-feature-one .feature-img-area:before {
   content: "";
   position: absolute;
-  left: 35px;
-  right: 160px;
+  left: 115px;
+  right: 50px;
   background: #fff;
   height: 200px;
   top: -25px;
@@ -1415,8 +1416,8 @@ body .shop-btn-two:hover {
 .fancy-feature-one .feature-img-area:after {
   content: "";
   position: absolute;
-  left: 80px;
-  right: 205px;
+  left: 150px;
+  right: 85px;
   background: #fff;
   height: 200px;
   top: -50px;
@@ -1428,8 +1429,8 @@ body .shop-btn-two:hover {
 
 .fancy-feature-one .feature-img-area .screen-one-main {
   width: 15%;
-  right: -4%;
-  bottom: 75%;
+  left: -10%;
+  bottom: 55%;
   z-index: 1;
   animation: jumpTwo 3s infinite linear;
 }

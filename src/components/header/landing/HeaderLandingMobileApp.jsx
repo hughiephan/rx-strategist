@@ -84,22 +84,31 @@ const HeaderLandingMobileApp = () => {
                         <MegaMenuLanding />
                       </div>
                     </li> */}
+
+                    <li className="nav-item">
+                      <a href="https://drive.google.com/file/d/1UQfMsopSQwDZa-ZOsC8t-0TEhW53Wjgc/view?usp=sharing" className="nav-link">
+                        Paper (Redacted)
+                      </a>
+                    </li>
+
+                    <li className="nav-item">
+                      <a href="https://www.canva.com/design/DAGPm2HqCyk/wI1EM3uwbqyAhes_OfVLVQ/view" className="nav-link">
+                        Presentation
+                      </a>
+                    </li>
+
                     <li className="nav-item">
                       <a href="https://github.com/pphuc25/Rx-Strategist" className="nav-link">
                         Codebase
                       </a>
                     </li>
+
                     <li className="nav-item">
                       <a href="https://github.com/nikkapp/Prescription-Analyzer" className="nav-link">
-                        UI
+                        Component
                       </a>
                     </li>
 
-                    <li className="nav-item">
-                      <a href="https://www.overleaf.com/project/6698d89b59433d373352bd29" className="nav-link">
-                        Paper
-                      </a>
-                    </li>
                     {/* <li className="nav-item">
                       <a href="#feedback" className="nav-link">
                         Feedback
@@ -112,7 +121,7 @@ const HeaderLandingMobileApp = () => {
           </nav>
           {/* End Navbar */}
 
-          <div className="right-widget">
+          {/* <div className="right-widget">
             <ul className="d-flex align-items-center">
               <li>
                 <div
@@ -152,7 +161,7 @@ const HeaderLandingMobileApp = () => {
                 </div>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* End right-widget */}
         </div>
       </div>
@@ -176,32 +185,26 @@ const HeaderLandingMobileApp = () => {
           currentClassName="active"
           offset={-90}
         >
-          {/* <li className="nav-item">
-            <a href="#home" className="nav-link" onClick={handleClick}>
-              Home
+          <li className="nav-item">
+            <a href="https://drive.google.com/file/d/1UQfMsopSQwDZa-ZOsC8t-0TEhW53Wjgc/view?usp=sharing" className="nav-link" onClick={handleClick}>
+              Paper (Redacted)
             </a>
           </li>
           <li className="nav-item">
-            <a href="#product" className="nav-link" onClick={handleClick}>
-              Product
+            <a href="https://www.canva.com/design/DAGPm2HqCyk/wI1EM3uwbqyAhes_OfVLVQ/view" className="nav-link" onClick={handleClick}>
+              Presentation
             </a>
           </li>
           <li className="nav-item">
-            <a href="#features" className="nav-link" onClick={handleClick}>
-              Features
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a href="#pricing" className="nav-link" onClick={handleClick}>
-              Pricing
+            <a href="https://github.com/pphuc25/Rx-Strategist" className="nav-link" onClick={handleClick}>
+              Codebase
             </a>
           </li>
           <li className="nav-item">
-            <a href="#feedback" className="nav-link" onClick={handleClick}>
-              Feedback
+            <a href="https://github.com/nikkapp/Prescription-Analyzer" className="nav-link" onClick={handleClick}>
+              Component
             </a>
-          </li> */}
+          </li>
         </Scrollspy>
       </div>
       {/* Mobile Menu End */}
