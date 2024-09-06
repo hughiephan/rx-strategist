@@ -19,7 +19,6 @@ const App = () => {
     <>
       <Helmet>
         <title>RxStrategist</title>
-        <meta name="og:image" content="images/assets/main-feature-img-03.png"/>
         <meta property="og:site_name" content="RxStrategist" />
         <meta
           property="og:url"
