@@ -86,8 +86,8 @@ const HeaderLandingMobileApp = () => {
                     </li> */}
 
                     <li className="nav-item">
-                      <a href="https://drive.google.com/file/d/1UQfMsopSQwDZa-ZOsC8t-0TEhW53Wjgc/view?usp=sharing" className="nav-link">
-                        Paper (Redacted)
+                      <a href="https://arxiv.org/abs/2409.03440" className="nav-link">
+                        Paper
                       </a>
                     </li>
 
@@ -186,8 +186,8 @@ const HeaderLandingMobileApp = () => {
           offset={-90}
         >
           <li className="nav-item">
-            <a href="https://drive.google.com/file/d/1UQfMsopSQwDZa-ZOsC8t-0TEhW53Wjgc/view?usp=sharing" className="nav-link" onClick={handleClick}>
-              Paper (Redacted)
+            <a href="https://arxiv.org/abs/2409.03440" className="nav-link" onClick={handleClick}>
+              Paper
             </a>
           </li>
           <li className="nav-item">
