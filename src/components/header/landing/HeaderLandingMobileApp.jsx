@@ -99,13 +99,7 @@ const HeaderLandingMobileApp = () => {
 
                     <li className="nav-item">
                       <a href="https://github.com/pphuc25/Rx-Strategist" className="nav-link">
-                        Codebase
-                      </a>
-                    </li>
-
-                    <li className="nav-item">
-                      <a href="https://github.com/nikkapp/Prescription-Analyzer" className="nav-link">
-                        Component
+                        Codebase (Private)
                       </a>
                     </li>
 
@@ -197,12 +191,7 @@ const HeaderLandingMobileApp = () => {
           </li>
           <li className="nav-item">
             <a href="https://github.com/pphuc25/Rx-Strategist" className="nav-link" onClick={handleClick}>
-              Codebase
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="https://github.com/nikkapp/Prescription-Analyzer" className="nav-link" onClick={handleClick}>
-              Component
+              Codebase (Private)
             </a>
           </li>
         </Scrollspy>
